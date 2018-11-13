@@ -1,3 +1,4 @@
+%FIS with the rules described in the report
 [System]
 Name='fuzzy2'
 Type='mamdani'
