@@ -13,7 +13,6 @@ function [features] = extractFeatures(k,sampleM,sampleC,fun)
             last = len;
         end
         features(1,i) =  fun(sampleM(start:last));
-        features(1,i+k) = fun(sampleC(start:last));
-        %features(2,i) = (start+last)/2;
+        features(1,i+k) = fun(sampleC(start:last))
     end
 end
