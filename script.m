@@ -76,7 +76,7 @@ disp("FUZZY PART");
 diff_transposed = diff';
 fuzzyInputs = ([lchConverted; diff_transposed]); 
 %Load FIS from file
-FIS = readfis('fuzzy2.fis');
+FIS = readfis('fuzzy.fis');
 %Deploy the FIS to correct differences
 adjusted_de = evalfis(fuzzyInputs,FIS)';
 adjusted_transposed = adjusted_de';  
